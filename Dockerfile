@@ -11,12 +11,12 @@ COPY . app.py /app/
 ## Step 3:
 # Install packages from requirements.txt
 #hadolint ignore=DL3013
-RUN pip3 install --upgrade pip &&\
+RUN pip3 install --upgrade pip && \
 	pip3 install --trusted-host pypi.python.org -r requirements.txt
 
 ## Step 4:
 # Expose port 80
-EXPOSE 80
+EXPOSE 8080
 
 ## Step 5:
 # Run app.py at container launch

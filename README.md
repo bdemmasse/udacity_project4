@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/raphealolams/udacity_project4.svg?style=svg)
+[![CircleCI](https://circleci.com/gh/raphealolams/udacity_project4.svg?style=svg)]
 (https://circleci.com/gh/raphealolams/udacity_project4)
 
 ## Project Overview
